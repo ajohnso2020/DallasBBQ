@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: hotpink;
+    color: white;
+}
+.container {
+    width: 375px;
+    height: 2070px;
+    background-color: wheat;
+    margin: 20px auto;
+}
+.container img {
+    width: 55px;
+}
+header {
+    background-color: black;
+    height: 64px;
+}
+.hero {
+    height: 500px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5f4e7155ce513218e4076c12/1606754699603-J8MMPANVGAGVLN1LCYR2/home-1500x1000-hero.jpg?');
+    background-size: cover;
+    text-align: center;
+}
+.hero p {
+    text-transform: uppercase;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 25px;
+}
+.colada {
+    height: 500px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5f4e7155ce513218e4076c12/ecb5f9d6-69d1-4e93-988b-7bf8744b9dd8/bbq-2899-strawberry-henny-colada-WEBSITE-1920x1080.jpg?');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    text-align: center;
+}
+.spring {
+    height: 500px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5f4e7155ce513218e4076c12/1616686419755-6G0ALXY47RWJM5UC5AP4/20210112-IS7A9750.jpg?');
+    background-size: cover;
+    text-align: center;
+}
+.spring p {
+    text-transform: uppercase;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 25px;
+}
+.faq {
+    height: 500px;
+    background-color: #2a2829;
+    padding-left: 20px;
+}
+.faq img {
+    width: 90%;
+}
+.faq a {
+    color: white;
+}
+.icon {
+    display: flex;
+}
+.icon i {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
